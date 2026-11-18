@@ -4,11 +4,11 @@
   --shadow:0 12px 30px rgba(106,75,196,.22);
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-html{scroll-behavior:smooth;overflow-x:hidden;max-width:100%}
+html{scroll-behavior:smooth;overflow-x:hidden;overflow-x:clip;max-width:100%;width:100%}
 body{
   margin:0;font-family:'Fredoka',system-ui,sans-serif;color:var(--ink);
   background:linear-gradient(180deg,#f3ecff 0%,#e7dbff 35%,#f6e6fb 70%,#e3d6ff 100%);
-  background-attachment:fixed;overflow-x:hidden;max-width:100%;position:relative;
+  background-attachment:fixed;overflow-x:hidden;overflow-x:clip;max-width:100%;width:100%;position:relative;
 }
 body.locked{overflow:hidden}
 img{display:block;max-width:100%}

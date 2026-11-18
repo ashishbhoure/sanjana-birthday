@@ -1,5 +1,6 @@
 (() => {
 'use strict';
+addEventListener('scroll', () => { if (window.scrollX) scrollTo(0, window.scrollY); }, { passive: true });
 const C = window.CFG;
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
